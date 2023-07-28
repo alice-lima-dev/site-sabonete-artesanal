@@ -1,0 +1,80 @@
+@font-face {
+    font-family: fonte nav;
+    src: url(lazy_monday_4/Lazy\ Monday.otf);
+}
+*{
+    margin: 0px;
+}
+nav{
+    background-color: #ba2b3c;
+}
+#logo-nav{
+    width: 5%;
+    height: 5%;
+    margin: 10px 20px 10px 45px;
+}
+.div-nav{
+    display: flex;
+    
+}
+#p-logo{
+  font-family: fonte nav;
+  margin-top: 3%;
+  margin-left: 1%;
+  color: aliceblue;
+  font-size: 20px;
+}
+.links{
+    Color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.links-div{
+    margin-left: 50%;
+    margin-top: 3%;
+}
+#logo-corpo{
+    width: 50%;
+    border-radius: 50%;
+}
+#titulo{
+   font-size: 35px;
+   font-family: fonte nav;
+   margin-left: 50px;
+}
+.display{
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+    margin-top: 5%;
+}
+.box{
+    border: 2px solid #ba2b3c;
+    padding: 40px;
+    margin-right: 500px;
+    width: 40%;
+}
+label{
+    display: block;
+    padding: 15PX;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: fonte nav;
+}
+#descricao{
+    text-align: center;
+    margin-right: 30%;
+    border: #ba2b3c 2px solid;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formulario{
+    display: flex;
+}
+.button{
+    
+}
