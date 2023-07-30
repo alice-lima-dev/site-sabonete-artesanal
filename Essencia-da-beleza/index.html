@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script type="text/javascript" src="arquivo.js"></script>
     <title>Essência da Beleza</title>
 </head>
 
@@ -41,26 +42,32 @@
             <div class="box">
         
                 <label>
-                    <span>Email</span>
-                     <input type="Email" class="input_text" name="nome" id="input-email"/>
+                    <span>Email:</span>
+                     <input type="Email" class="input_text" name="nome" id="email" required/>
         
                 </label>
         
                 <label>
-                     <span>Usuario</span>
-                    <input type="text" class="input_text" name="email" id="input-usuario"/>
+                     <span>Usuário:</span>
+                    <input type="text" class="input_text" name="email" id="usuario"/>
                  </label>
         
                 <label>
                      <span>Senha:</span>
-                    <input type="password" class="input_text" name="assunto" id="input-senha"/>
+                    <input type="password" class="input_text" name="assunto" id="senha"/>
                 </label>
-        
-                    <input type="button" class="button" value="Enviar" />
-
+                <div class="botao">
+            <input type="button" class="button" onclick="cadastro()" value="Concluir cadastro" />
+            </div>
             </div>
         </form>
     </div>
+    <footer>
+        <div class="div-nav">
+            <img id="logo-footer" src="img/logo.png">
+            <p id="p-footer">Essência da Beleza</p>
+        </div>
+    </footer>
 </body>
 
 </html>

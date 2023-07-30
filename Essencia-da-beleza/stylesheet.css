@@ -2,60 +2,79 @@
     font-family: fonte nav;
     src: url(lazy_monday_4/Lazy\ Monday.otf);
 }
-*{
+
+* {
     margin: 0px;
 }
-nav{
+
+nav {
     background-color: #ba2b3c;
 }
-#logo-nav{
+
+#logo-nav {
     width: 5%;
     height: 5%;
     margin: 10px 20px 10px 45px;
 }
-.div-nav{
+
+.div-nav {
     display: flex;
-    
+
 }
-#p-logo{
-  font-family: fonte nav;
-  margin-top: 3%;
-  margin-left: 1%;
-  color: aliceblue;
-  font-size: 20px;
+
+#p-logo {
+    font-family: fonte nav;
+    margin-top: 3%;
+    margin-left: 1%;
+    color: aliceblue;
+    font-size: 20px;
 }
-.links{
+
+.links {
     Color: aliceblue;
     padding: 20px;
     text-decoration: none;
     font-size: 20px;
 }
-.links-div{
+
+.links-div {
     margin-left: 50%;
     margin-top: 3%;
 }
-#logo-corpo{
+
+#logo-corpo {
     width: 50%;
     border-radius: 50%;
+    margin-left: 30%;
 }
-#titulo{
-   font-size: 35px;
-   font-family: fonte nav;
-   margin-left: 50px;
+
+#titulo {
+    font-size: 35px;
+    font-family: fonte nav;
+    margin-left: 180px;
+    margin-top: 100px;
 }
-.display{
+
+.display {
     display: flex;
     margin-left: 15%;
     align-items: center;
     margin-top: 5%;
 }
-.box{
+
+.box {
     border: 2px solid #ba2b3c;
-    padding: 40px;
-    margin-right: 500px;
+    padding: 50px;
+    margin-right: 400px;
     width: 40%;
+    margin-top: 35px;
 }
-label{
+.botao{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+label {
     display: block;
     padding: 15PX;
     align-items: center;
@@ -63,18 +82,49 @@ label{
     font-size: 25px;
     font-family: fonte nav;
 }
-#descricao{
+
+#descricao {
     text-align: center;
-    margin-right: 30%;
+    margin-right: 15%;
     border: #ba2b3c 2px solid;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 30%;
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
 }
-.formulario{
+
+.formulario {
     display: flex;
 }
-.button{
-    
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #ba2b3c;
+    font-size: 18px;
+    width: 250px;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+    background-color: #ba2b3c;
+    margin-top: 15%;
+
+}
+
+#logo-footer {
+    width: 5%;
+    height: 5%;
+    margin-left: 40%;
+    margin: 10px 40px 10px 650px;
+}
+
+#p-footer {
+    font-family: fonte nav;
+    margin-top: 3%;
+    color: aliceblue;
+    font-size: 20px;
 }
